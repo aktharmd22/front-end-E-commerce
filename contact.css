@@ -1,0 +1,38 @@
+#contactUsContent{
+	margin-top: 60px;
+}
+
+#name,#email,#msg,button{
+	margin-top: 20px;
+}
+#msg{
+	height: 30vh;
+}
+#submitBtn{
+	background-color: #000 ;
+	color: #fff;
+
+}
+#submitBtn:hover{
+	color: #fff;
+	background-color: #3a3a3a;
+	transition: 0.5s;
+}
+#icon{
+	width: 20px;
+	margin: 0 10px;
+}
+#icon: hover{
+	width: 30px;
+	color: green;
+	transition: .5s;
+}
+#copy{
+	padding-top: 30px;
+}
+#SMicons{
+	padding-top: 30px;
+}
+#location{
+	margin-top: 60px;
+}

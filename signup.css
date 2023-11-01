@@ -1,0 +1,32 @@
+body{
+	background: url("https://searchera.io/img/pattern.svg");
+	background-size: cover;
+	font-family:'poppins',sans-serif,serif;
+}
+#regForm{
+	color: #fff;
+	background-color: #000;
+	padding: 20px;
+}
+#imgLeft{
+	width: 100%;
+	height: 40vw;
+	margin-top: 90px;
+}
+#signupTitle{
+	color: #fff;
+
+}
+#smallMsg,#smallMsg2,#smallMsg3,#smallMsg4,#smallMsg5,#smallMsg6,#smallMsg7{
+	color: red;
+	padding-left: 20px;
+}
+#content{
+
+	margin-top: 50px;
+}
+@media (max-width: 1200px){
+	#imgLeft{
+	display: none;
+}
+}

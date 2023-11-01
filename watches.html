@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <!--Navbar Start-->
+		
+<!-- navbar navbar-inverse navbar-static-top used for static hamburger menu -->
+<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation" id="nav-bg">
+<div class="container">
+<!-- container gives content bootstrap alignment -->
+<div class="navbar-header">
+<!-- navbar-header gives header -->
+<!-- navbar-toggle collapsed for hide the content -->
+<button type="button" class="navbar-toggle collapsed"
+data-toggle="collapse" data-target="#menu">
+<!-- sr-only gives feature, hides elements from all devices except screen -->
+<span class="sr-only">Hamburger Menu</span> <span class="icon-bar"></span>
+<span class="icon-bar"></span> <span class="icon-bar"></span>
+<!-- icon-bar creates structure like triple equal -->
+</button>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="menu">
+<!--nav navbar-nav used to sets the navigation bar size( either increase or reduce) -->
+<ul class="nav navbar-nav" id="navMenu">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="tshirt.html">T-shirts</a></li>
+          <li><a href="pants.html">Mens Pants</a></li>
+          <li><a href="shoes.html">Shoes</a></li>
+		  <li><a href="hoodies.html">Hoodies</a></li>
+		  <li><a href="watches.html">Watches</a></li>
+        </ul>
+      </li>
+<li><a href="aboutUs.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+		<!--Navbar End-->
+        
+			<!--Carousal start-->	
+		
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active" >
+        <img src="./carousal images/watch1.jpg" class="img-fluid" alt="T shirt ad" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./carousal images/watch2.jpg" class="img-fluid" alt="T shirt ad" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="./carousal images/watch3.jpg" class="img-fluid img-responsive" alt="tshirt ad" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!--Carousal end-->
+
+		
+
+        <!--Products-->
+        <div class="container">
+          <div class="row">
+		  
+		  
+            <div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4MDMzODYwNDIyODcwODEz/norqain_independenceskeleton42mmbluesteel.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+			
+			<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://i.etsystatic.com/27840545/r/il/07fbcf/3076477431/il_570xN.3076477431_b8xe.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 299 &nbsp;<strike style="color:red;">&#8377; 799</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://www.businessinsider.in/thumb.cms?msid=69033594&width=1200&height=900" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 299 &nbsp;<strike style="color:red;">&#8377; 799</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://frederiqueconstant.com/wp-content/uploads/categories/men_v1687435076.webp" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 499 &nbsp;<strike style="color:red;">&#8377; 1099</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://fossil.scene7.com/is/image/FossilPartners/ME3221_main?$sfcc_fos_large$" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 349 &nbsp;<strike style="color:red;">&#8377; 849</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://img.tatacliq.com/images/i8/437Wx649H/MP000000014373996_437Wx649H_202209082224321.jpeg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 999 &nbsp;<strike style="color:red;">&#8377; 2499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://www.mnmlst.in/cdn/shop/collections/DSC00478.jpg?v=1692021952&width=1500" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://cdn.shopify.com/s/files/1/0278/9723/3501/files/Tissot-PRX-Chrono-2.jpg?v=1655492148" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 399 &nbsp;<strike style="color:red;">&#8377; 999</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://images.selfridges.com/is/image/selfridges/220214_ROLEX_MEN_HERO_SLIDER?wid=1920&fmt=jpg&fit=constrain&qlt=95,1" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 799 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://images.guesswatches.com/image/upload/f_auto/w_1440,c_fit/Libraries/sequelshared/gcwatches/discover/fall-17/Discover-960x520_Gc_Mens-Page_Fall-17_Everyday-Chic.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 499 &nbsp;<strike style="color:red;">&#8377; 1099</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://images-cdn.ubuy.co.in/6350e545f444d04561154ed4-men-watches-military-black-steel.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://primeambassador.com/assets/images/share/mens-watches.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/watch/i/h/d/1-black-phantom-edition-rceles-men-original-imagkmf8ggggfgth.jpeg?q=20" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+						<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://nordgreen.com/cdn/shop/collections/CP_Male_Native_961fa23a-161f-4a6d-ad4d-fc4ca0ddec96_970x.webp?v=1673502035" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-4 col-12" id="col1">
+				<div class="card" id="card1">
+                    <img src="https://cdn.luxe.digital/media/2021/07/02102402/best-men-watches-junghans-meister-handaufzug-review-luxe-digital%402x.jpg" alt="" class="card-img-top img-fluid img-responsive" id="productImg">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mens Casual watch</h5>
+						<p id="star"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+						   <span class="glyphicon glyphicon-star"></span></p>
+						<p id="desc">100% cotton Light Weight </p>
+						<h5 id="desc">&#8377; 599 &nbsp;<strike style="color:red;">&#8377; 1499</strike></h5>
+						<p id="freeShipping">Free Shipping</p>
+                        <div class="text-center">   
+                          <a href="#" class="btn btn-primary" id="addToCart">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</a>
+						   <a href="#" class="btn " id="details">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> 
+			
+			
+            </div> 
+
+          </div>
+	    </div>
+        <!--Product end-->
+
+
+<!--Footer start-->
+
+		<br>
+		    <footer class="footer-bs" id="nav-bg">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+            	<h2>Logo</h2>
+                <p>Style Is Forever.</p>
+                <p>&copy; copyright, All rights reserved</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4>Our Poducts</h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="Tshirt.html">T-shirts</a></li>
+                        <li><a href="watches.html">Watches</a></li>
+                        <li><a href="shoes.html">Shoes</a></li>
+                        <li><a href="pants.html">Pants</a></li>
+                        <li><a href="hoodies.html">Hoodies</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Follow Us</h4>
+            	<ul>
+                	<li><a href="#">Facebook</a></li>
+                	<li><a href="#">Twitter</a></li>
+                	<li><a href="#">Instagram</a></li>
+                	<li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4>Newsletter</h4>
+                <p>Subscribe For Latest Offers</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Email address">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+				<!--footer end-->
+</body>
+</html>
